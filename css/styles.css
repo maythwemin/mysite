@@ -1,0 +1,145 @@
+body {
+  color: #fafdfd;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  /*font size 16px = 100% = 1em*/
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: #2a4770;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+  color: #2a4770;
+  margin:0;
+  padding-top: 20px;
+  padding-bottom:10px;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #363636;
+}
+
+p {
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2a4770;
+width: 30%;
+margin: 10px auto 10px auto;
+}
+
+hr{
+  border-color: #e36387;
+  width: 6%;
+  border-style: dotted none none none;
+  border-width: 20px;
+
+}
+
+a{
+  color: #2a4770;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color:#e36387;
+}
+/***************************TOP CONTAINER************************************/
+.topcontainer {
+  text-align: center;
+  height: 790px;
+  background-color: #ffe9e6;
+  position: relative;
+}
+
+.heading1 {
+  position: relative;
+  top: 200px;
+}
+
+.paragraph1 {
+  position: relative;
+  top: 210px;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/***************************MIDDLE CONTAINER********************************/
+.middle-container {
+  background-color: #a7ebd7;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+}
+
+.profile {
+  position:relative;
+  padding: 0;
+}
+
+.profilepic {
+  width: 300px;
+  position:relative;
+  margin-top: 20px;
+}
+.designer {
+  width: 300px;
+}
+
+.skills {
+  padding-bottom: 20px;
+}
+.others {
+  width: 300px;
+}
+/****************************BOTTOM CONTAINER*******************************/
+.bottom-container {
+  background-color: #a7ebd7;
+  height: 45%;
+  width: 100%;
+}
+
+.feelfree {
+  margin: 20px auto 40px auto;
+}
+.btn {
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  -webkit-box-shadow: 1px 2px 3px #666666;
+  -moz-box-shadow: 1px 2px 3px #666666;
+  box-shadow: 1px 2px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #E36387;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  position: relative;
+  margin: 10px auto 10px auto;
+}
+
+.btn:hover {
+  background: #F2AAAA;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #2a4770;
+  padding: 20px;
+}
